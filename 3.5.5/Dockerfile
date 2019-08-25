@@ -5,12 +5,12 @@ ENV ZOO_CONF_DIR=/conf \
     ZOO_DATA_LOG_DIR=/datalog \
     ZOO_LOG_DIR=/logs \
     ZOO_TICK_TIME=2000 \
-    ZOO_INIT_LIMIT=5 \
+    ZOO_INIT_LIMIT=10 \
     ZOO_SYNC_LIMIT=2 \
     ZOO_AUTOPURGE_PURGEINTERVAL=0 \
     ZOO_AUTOPURGE_SNAPRETAINCOUNT=3 \
     ZOO_MAX_CLIENT_CNXNS=60 \
-    ZOO_STANDALONE_ENABLED=true \
+    ZOO_STANDALONE_ENABLED=false \
     ZOO_ADMINSERVER_ENABLED=true
 
 # Add a user with an explicit UID/GID and create necessary directories
